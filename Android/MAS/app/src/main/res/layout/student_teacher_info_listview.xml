@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/swipe"
+    app:leftEdgeSwipeOffset="0dp"
+    app:rightEdgeSwipeOffset="0dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/hidden_button_content"
+        android:layout_width="200dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/emailButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_email"
+            android:gravity="center"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/contactButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_contact"
+            android:gravity="center"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/teacherImage"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_youtube_logo" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/teacherName2"
+                    android:text="Teacher:"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/teacherNameTxt2"
+                    android:text="Hu JiaJun"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/moduleName2"
+                    android:text="Module:"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/moduleNameTxt2"
+                    android:text="OOAD"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="3" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/phone"
+                    android:text="Phone:"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/phoneTxt"
+                    android:text="93799009"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/email"
+                    android:text="Email:"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/emailTxt"
+                    android:text="160015Q@mymail.nyp.edu.sg"
+                    android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

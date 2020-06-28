@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mas.StudentTimeTableFragment">
+
+    <RelativeLayout
+        android:id="@+id/timeTableBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/TTImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/timeTableIconBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/timeTableBackground"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/timetable_background"/>
+
+            <Button
+                android:id="@+id/TTSelectImageBTN"
+                android:text="Select Image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="5dp"
+                android:textColor="#00ff00"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/ic_select_timetable_shape"
+                android:drawableLeft="@mipmap/ic_add_icon"
+                android:layout_below="@id/timeTableBackground" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

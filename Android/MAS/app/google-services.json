@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443040141633",
+    "firebase_url": "https://masfirebaseproject-816f7.firebaseio.com",
+    "project_id": "masfirebaseproject-816f7",
+    "storage_bucket": "masfirebaseproject-816f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443040141633:android:fe2a7056ba8901b6",
+        "android_client_info": {
+          "package_name": "com.hjjangela.mas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443040141633-8e214khe44gn7d8cuka3niqorcdr9spd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hjjangela.mas",
+            "certificate_hash": "28ecb56ac9815420c909ff0fd8842a09b26ce940"
+          }
+        },
+        {
+          "client_id": "443040141633-ncqit79htrkv1shomgs6l0qsga5sh2mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrUYlJpkhl4I4b4JUonckdqsmU7WEUvgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443040141633-ncqit79htrkv1shomgs6l0qsga5sh2mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

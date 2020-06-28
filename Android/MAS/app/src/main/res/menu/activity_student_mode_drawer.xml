@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuCurrentModule"
+            android:icon="@mipmap/ic_menu_attendance"
+            android:title="Mark Attendance" />
+        <item
+            android:id="@+id/menuTimeTable"
+            android:icon="@mipmap/ic_menu_timetable"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/menuMyProfile"
+            android:icon="@mipmap/ic_menu_myprofile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/menuTeacherInfo"
+            android:icon="@mipmap/ic_menu_teacherinfo"
+            android:title="Teacher Info" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/menuAbout"
+                android:icon="@mipmap/ic_menu_about"
+                android:title="About" />
+            <item
+                android:id="@+id/menuLogout"
+                android:icon="@mipmap/ic_menu_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

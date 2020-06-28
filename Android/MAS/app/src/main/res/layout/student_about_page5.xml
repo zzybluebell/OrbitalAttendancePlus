@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/developer"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Life System"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_below="@+id/MPBackground"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/developer3"
+                android:text="Developer:"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/developerTxt3"
+                android:text="Hu JiaJun"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:textSize="13dp"/>
+
+            <ImageView
+                android:id="@+id/developerBTN3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/phone3"
+                android:text="Phone:"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/phoneTxt3"
+                android:text="93799009"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:textSize="13dp"/>
+
+            <ImageView
+                android:id="@+id/phoneBTN3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_contact"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/email3"
+                android:text="Email:"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/emailTxt3"
+                android:text="160015Q@mymail.nyp.edu.sg"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:textSize="13dp"/>
+
+            <ImageView
+                android:id="@+id/emailBTN3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_email"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/company3"
+                android:text="Company:"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:id="@+id/companyTxt3"
+                android:text="http://www.hjjangela.com/mass/"
+                android:textColor="#000"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:textSize="13dp"/>
+
+            <ImageView
+                android:id="@+id/companyBTN3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_website"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:clickable="true"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

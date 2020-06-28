@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/teacherModuleTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:background="@color/lightGray"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/moduleCode"
+                android:text="Module Code:"
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/moduleCodeTxt"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/moduleName"
+                android:text="Module Name:"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/moduleNameTxt"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/beginTime"
+                android:text="Begin Time:"
+                android:layout_width="0dp"
+                android:textSize="12dp"
+                android:gravity="center" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/beginTimeTxt"
+                android:text=""
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/endTime"
+                android:text="End Time:"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/endTimeTxt"
+                android:text=""
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:textColor="@color/blue"
+                android:id="@+id/startStop"
+                android:text="Start / Stop:"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:textColor="@color/blue"
+                android:id="@+id/startStopTxt"
+                android:text=""
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
