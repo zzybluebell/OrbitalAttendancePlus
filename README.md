@@ -11,4 +11,3 @@ User Stories
 It is easy to use Attendance+. Logging into the application with ID provided by the respective organization, the user can have the following operation. If the user wishes to host the attendance taking process, he can proceed to the host end and establish the connection with the use of bluetooth mode on his mobile phone. If the user is an attendee and wishes to take attendance, he just needs to look for the respective host name and connect it with bluetooth, and lastly scan his face, to make the attendance taking process complete. 
 
 # OrbitalAttendancePlus
-# OrbitalAttendancePlus
