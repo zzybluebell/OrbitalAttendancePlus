@@ -83,7 +83,7 @@
 
                 <TextView
                     android:id="@+id/nameTxt2"
-                    android:text="Hu Jia Jun"
+                    android:text="Zhang Zhi Yao"
                     android:textColor="@color/black"
                     android:layout_width="0dp"
                     android:layout_gravity="center_vertical"
@@ -185,7 +185,7 @@
 
                 <TextView
                     android:id="@+id/SCGTxt2"
-                    android:text="SEG -- DMIT -- 1603"
+                    android:text="SoC CS"
                     android:textColor="@color/black"
                     android:layout_gravity="center_vertical"
                     android:layout_width="0dp"
