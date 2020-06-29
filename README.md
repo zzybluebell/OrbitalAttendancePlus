@@ -1,4 +1,6 @@
-Milestone1 project README
+Attendance+ README
+
+
 Level of Achievement & Scope
 Our team is at the level of achievement of Apollo 11. We have a scope of any organizations that aim to take physical attendance for any form of gathering, provided that photos of the attendees are provided. 
 Problem Motivation
